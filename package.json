@@ -1,0 +1,12 @@
+{
+  "name": "serverless-graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-lambda": "^2.8.1",
+    "graphql": "^14.4.2",
+    "prisma-client-lib": "^1.34.5"
+  }
+}
