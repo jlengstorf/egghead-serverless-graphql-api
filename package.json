@@ -5,7 +5,7 @@
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build"
+    "build": "cd site && gatsby build"
   },
   "dependencies": {
     "apollo-server-lambda": "^2.8.1",
