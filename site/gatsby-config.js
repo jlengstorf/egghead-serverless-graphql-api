@@ -1,10 +1,13 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   plugins: [
     {
       resolve: 'gatsby-source-graphql',
       options: {
-        // url: 'https://api.graphcms.com/simple/v1/swapi',
-        url: 'http://localhost:8888/.netlify/functions/graphql',
+        url: process.env.GATSBY_GRAPHQL_API,
         typeName: 'API',
         fieldName: 'api'
       }
