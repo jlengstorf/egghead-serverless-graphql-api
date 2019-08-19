@@ -5,11 +5,17 @@
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "MIT",
   "scripts": {
-    "build": "echo yay!"
+    "build": "gatsby build"
   },
   "dependencies": {
     "apollo-server-lambda": "^2.8.1",
+    "axios": "^0.19.0",
+    "gatsby": "^2.13.67",
+    "gatsby-source-graphql": "^2.1.5",
     "graphql": "^14.4.2",
-    "prisma-client-lib": "^1.34.5"
+    "http-server": "^0.11.1",
+    "prisma-client-lib": "^1.34.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }

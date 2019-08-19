@@ -2,7 +2,7 @@
 [build]
   command = "yarn build"
   functions = "api"
-  publish = ""
+  publish = "public"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app. 
   ## Not needed for static site generators.
@@ -13,8 +13,8 @@
   
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/netlify-dev-plugin#project-detection
-  #[dev] 
-  #  command = "yarn start" # Command to start your dev server
+  # [dev] 
+  #  command = "npx serve" # Command to start your dev server
   #  port = 3000 # Port that the dev server will be listening on
   #  publish = "dist" # Folder with the static content for _redirect file
   
