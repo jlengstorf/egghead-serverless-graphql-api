@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "echo yay!"
+  },
   "dependencies": {
     "apollo-server-lambda": "^2.8.1",
     "graphql": "^14.4.2",
